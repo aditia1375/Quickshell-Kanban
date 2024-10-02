@@ -1,0 +1,68 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-color: #f8f9fb;
+}
+
+.toLeft {
+    margin-left: 16px;
+    background-color: #f8f9fb;
+    white-space: nowrap;
+}
+
+*{
+    background-color: #f8f9fb;
+
+}
+
+.heading{
+    padding-left: 8px;
+    color: grey;
+}
+
+.leftview{
+    margin-left: 0px;
+    display: flex;
+    height: 5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+    background-color: #f8f9fb;
+    /* background-color: white */
+}
+
+.column .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #f8f9fb;
+    width: 300px;
+}
+.name_label {
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    background-color: #f8f9fb;
+    text-align: left;
+}
+
+.lineHead {
+    background-color: #f8f9fb;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 10px;
+}
+
+.icon {
+    background-color: #f8f9fb;
+    /* width: 16px;
+    height: 16px; */
+    padding-left: 5px;
+}

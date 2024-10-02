@@ -1,0 +1,42 @@
+/* Avatar.module.css */
+.avatarContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+/* Avatar.module.css */
+.loading {
+  width: 40px;
+  height: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; 
+  color: white;
+}
+
+
+.avatar {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+  background-color:#ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color:black; 
+  
+}
+
+.status {
+  width: 15px;
+  height: 15px; 
+  border-radius: 50%; 
+  position: absolute;
+  bottom: -1.5px;
+  right: -1.5px; 
+  border: 3px solid white; 
+}
